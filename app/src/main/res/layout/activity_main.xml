@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"></EditText>
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save data"></Button>
+
+    <Button
+        android:id="@+id/bt_del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delet data"></Button>
+    <Button
+        android:id="@+id/bt_retrieve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrieve data"></Button>
+    <TextView
+        android:id="@+id/v_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""></TextView>
+    <TextView
+        android:id="@+id/v_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""></TextView>
+
+</LinearLayout>
