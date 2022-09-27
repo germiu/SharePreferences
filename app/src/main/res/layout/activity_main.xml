@@ -31,7 +31,7 @@
         android:id="@+id/bt_del"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="delet data"></Button>
+        android:text="delete data"></Button>
     <Button
         android:id="@+id/bt_retrieve"
         android:layout_width="match_parent"
